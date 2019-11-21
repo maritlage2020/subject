@@ -195,7 +195,7 @@ footer {
   color: #fff;
 }
 
-@media screen and (max-width:425px)  {
+@media screen and (max-width:425px) {
   header  {
     width:100%;
   }
@@ -204,7 +204,7 @@ footer {
   }
   .nav-list-item  {
     width:100%;
-
+    margin: 0;
     float: none;
   }
   .social  {
@@ -221,7 +221,34 @@ footer {
     margin: 0;
   }
   .blog-box  {
-    padding-left: 1px;
+    padding-left: 3px;
   }
-
+  .blog-image  {
+    width: 45%;
+  }
+  .blog-text{
+    width: 45%;
+    padding-top: 3px
+  }
+  .category{
+    display: none;
+  }
+  .sidebar  {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .instagram-box  {
+    width: 47%;
+    padding-top: 47%;
+  }
+  .instagram-box:nth-child(odd) {
+    margin-right: 6%;
+  }
+  .pagnation  {
+    margin-bottom: 50px;
+  }
+  footer  {
+    width: 100%;
+  }
 }
